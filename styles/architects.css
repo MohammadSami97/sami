@@ -177,4 +177,10 @@ header{
     .nav-links{
         flex-direction: column;
     }
+    .teams-features{
+        flex-direction: column;
+    }
+    /* .team-imgs{
+        grid-template-columns: repeat(2,1fr);
+    } */
 }
