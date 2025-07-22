@@ -179,6 +179,7 @@ header{
 .facts-sect{
     max-width: 1440px;
     margin: 0 auto;
+    margin-bottom: 180px;
     
 }
 .facts-details{
@@ -225,6 +226,45 @@ header{
     margin: 0;
 }
 
+/* footer style */
+.footer-intro{
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.footer-imgs{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content:space-between;
+}
+
+.footer-img{
+    filter: grayscale(100%);
+}
+
+.footer-ext-container{
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 216px;
+    border-radius: 8px;
+}
+
+.footer-ext{
+    font-size: 1.25rem;
+    padding: 39px 410px 38px 410px;
+}
+
 /* responsive layout */
 @media screen and (max-width:576px) {
     .navbar, 
@@ -245,5 +285,14 @@ header{
     .fact{
         padding: 10px 5px;
     }
+    .footer-imgs{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 50px;
+    }
 
+
+    .footer-ext{
+        padding: 10px 40px;
+    }
 }
